@@ -1,11 +1,14 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 .buy-button{
-    font-size: 1.5em;
+    font-size: 1.2rem;
     background-color: #3d4ff3;
-    margin-top: .6em;
+    margin-top:.6em;
 }
 
 .buy-icon{
@@ -17,7 +20,7 @@ header{
 }
 
 /* #363958 */
-h1{
+h1,h2{
     color: #363958;
     font-family: 'Bebas Neue', cursive;
 }
@@ -26,4 +29,15 @@ h1{
 }
 #company-name{
     color: #FA804C;
+}
+.casual-card{
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.casual-shoe-img{
+    height:21rem;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #f1f1f1;
 }
