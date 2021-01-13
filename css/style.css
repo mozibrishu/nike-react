@@ -6,7 +6,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 .buy-button{
-    font-size: 1.2rem;
+    font-size: 1.2em;
     background-color: #3d4ff3;
     margin-top:.6em;
 }
@@ -31,12 +31,12 @@ h1{
     color: #FA804C;
 }
 .casual-card{
-    padding: 1rem;
-    border-radius: 1rem;
+    padding: 1em;
+    border-radius: 1em;
 }
 
 .casual-shoe-img{
-    height:21rem;
+    height:21em;
     width: 100%;
     border-radius: 10px;
     background-color: #f1f1f1;
