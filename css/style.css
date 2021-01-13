@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.buy-button{
+    font-size: 1.5em;
+    background-color: #3d4ff3;
+    margin-top: .6em;
+}
+
+.buy-icon{
+    margin-right: 10px;
+}
+
+header{
+    background-color: #fff9f4;   
+}
+
+/* #363958 */
+h1{
+    color: #363958;
+    font-family: 'Bebas Neue', cursive;
+}
+h1{
+    font-size:5em ;
+}
+#company-name{
+    color: #FA804C;
+}
