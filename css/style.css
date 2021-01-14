@@ -2,6 +2,14 @@ body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+#nike,#Shoes{
+    font-size: 1.8em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+#Shoes{
+    color:#363958 ;
+}
 .nike-nav-link{
     color: black !important;
     font-weight: 700;
@@ -37,7 +45,7 @@ h1{
 h2{
     font-size: 300%;
 }
-#company-name{
+#company-name,#nike{
     color: #FA804C;
 }
 .nike-shoe-card{
