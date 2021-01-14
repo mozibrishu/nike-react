@@ -1,14 +1,12 @@
-*{
-    box-sizing: border-box;
-}
 body{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
 .buy-button{
+    border-radius: .3em;
     font-size: 1.2em;
     background-color: #3d4ff3;
-    margin-top:.6em;
+    margin-top:0em;
 }
 
 .buy-icon{
@@ -27,17 +25,35 @@ h1,h2{
 h1{
     font-size:5em ;
 }
+h2{
+    font-size: 300%;
+}
 #company-name{
     color: #FA804C;
 }
-.casual-card{
+.nike-shoe-card{
     padding: 1em;
     border-radius: 1em;
 }
+.nike-card-footer{
+    background-color: white;
+    border: 0;
+}
+.nike-card-title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+.shoe-price{
+    color:  #FA804C;
+    font-size: 2em;
+    font-weight: 700;
+}
 
-.casual-shoe-img{
+.nike-shoe-img{
     height:21em;
     width: 100%;
     border-radius: 10px;
+}
+.casual-shoe-img{
     background-color: #f1f1f1;
 }
