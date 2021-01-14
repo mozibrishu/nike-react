@@ -29,10 +29,11 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link active mx-3" aria-current="page" href="#">Home</a>
-                        <a class="nav-link mx-3" href="#">Casual Shoes</a>
-                        <a class="nav-link mx-3" href="#">Formal Shoes</a>
-                        <a class="nav-link mx-3" href="#">About Us</a>
+                        <a class="nav-link mx-2 nike-nav-link" href="#">Home</a>
+                        <a class="nav-link mx-2 nike-nav-link" href="#casual-shoes">Casual Shoes</a>
+                        <a class="nav-link mx-2 nike-nav-link" href="#formal-shoes">Formal Shoes</a>
+                        <a class="nav-link mx-2 nike-nav-link" href="#subscribe-section">Subscribe</a>
+                        <a class="nav-link mx-2 nike-nav-link" href="#about-section">About Us</a>
                     </div>
                 </div>
             </div>
@@ -59,7 +60,7 @@
     </header>
     <main>
         <!-- Casual Shoes Section -->
-        <section class="container my-4">
+        <section id="casual-shoes" class="container my-4">
             <h2 class="text-center text-md-start my-5">CASUAL SHOES</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -120,7 +121,7 @@
             </div>
         </section>
         <!-- Formal Shoes Section -->
-        <section class="container my-5">
+        <section id="formal-shoes" class="container my-5">
             <h2 class="text-center text-md-start my-5">FORMAL SHOES</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -181,38 +182,37 @@
         <!-- Complete: Casual Shoe - Formal Shoe -->
 
         <!-- About Section -->
-        <section class="container my-5 d-flex justify-content-end">
+        <section id="about-section" class="container my-5 d-flex justify-content-end">
             <div class="row align-items-center">
                 <div class="col-12 col-md-5">
-                    <div class="d-flex align-items-center shadow my-3 about-card">
+                    <div
+                        class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 about-card">
                         <div><img class="about-section-img mx-4" src="Logo, Icon/fit.png" alt=""></div>
-                        <div class="p-3">
-                            <h3>Find the Perfect Fit</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum?</p>
+                        <div class="p-2">
+                            <h4>Find the Perfect Fit</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center shadow my-3 about-card">
+                    <div
+                        class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 about-card">
                         <div><img class="about-section-img  mx-4" src="Logo, Icon/exchange.png" alt=""></div>
-                        <div class="p-3">
-                            <h3>Find the Perfect Fit</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum?</p>
+                        <div class="p-2">
+                            <h4>Free Exchange</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
                         </div>
                     </div>
-                    <div class="d-flex align-items-center shadow my-3 about-card">
+                    <div
+                        class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 about-card">
                         <div><img class="about-section-img  mx-4" src="Logo, Icon/contacts.png" alt=""></div>
                         <div class="p-2">
-                            <h3>Find the Perfect Fit</h3>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum?</p>
+                            <h4 id="contact-section">Contact Our Seller</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
                         </div>
                     </div>
-
                 </div>
-
-                <!-- image -->
                 <div class="col-12 col-md-7">
                     <img class="w-100" src="Logo, Icon/app-diagram.png" alt="">
                 </div>
-
             </div>
         </section>
     </main>
