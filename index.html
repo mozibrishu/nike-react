@@ -221,21 +221,90 @@
         <section class="container my-4">
             <h2 class="text-center text-md-start my-5">OTHER SHOES</h2>
 
-            <div class="other-shoes-box"> 
-                <div
-                    class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 other-shoes-card">
-                    <div><img class="other-section-img " src="Photos/other-shoes/hiking-shoes.png" alt=""></div>
-                    <div class="p-2 other-section-info-card">
-                        <h4 id="contact-section">Hiking Shoes</h4>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
-                        <h5 class="shoe-price">$234</h5>
-                        <button class="btn btn-primary other-section-buy-button px-3"><span class="buy-icon"><i
-                            class="fas fa-shopping-cart"></i></span>BUY NOW</button>
+            <div class="other-shoes-box">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div
+                                class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 other-shoes-card">
+                                <div><img class="other-section-img " src="Photos/other-shoes/hiking-shoes.png" alt="">
+                                </div>
+                                <div class="p-2 other-section-info-card">
+                                    <h4 id="contact-section">Hiking Shoes</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
+                                    <h5 class="shoe-price">$234</h5>
+                                    <button class="btn btn-primary other-section-buy-button px-3"><span
+                                            class="buy-icon"><i class="fas fa-shopping-cart"></i></span>BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 other-shoes-card">
+                                <div><img class="other-section-img " src="Photos/other-shoes/leather-boots.png" alt="">
+                                </div>
+                                <div class="p-2 other-section-info-card">
+                                    <h4 id="contact-section">Leather Shoes</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
+                                    <h5 class="shoe-price">$234</h5>
+                                    <button class="btn btn-primary other-section-buy-button px-3"><span
+                                            class="buy-icon"><i class="fas fa-shopping-cart"></i></span>BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div
+                                class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 other-shoes-card">
+                                <div><img class="other-section-img " src="Photos/other-shoes/Combat-boot.png" alt="">
+                                </div>
+                                <div class="p-2 other-section-info-card">
+                                    <h4 id="contact-section">Combat Boots</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
+                                    <h5 class="shoe-price">$234</h5>
+                                    <button class="btn btn-primary other-section-buy-button px-3"><span
+                                            class="buy-icon"><i class="fas fa-shopping-cart"></i></span>BUY NOW</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </a>
                 </div>
             </div>
         </section>
+        <!-- other-shoes complete: Subscribe Section Start -->
+        <section class="container my-4">
+            <h2 class="text-center mt-5">Subscribe</h2>
+            <h5 class="text-center mb-5">Get notification about new collection and offer</h5>
+
+            <form action="">
+                <div class="w-50 m-auto">
+                    <div class="form-floating my-3">
+                        <input type="text" class="form-control" id="floatingName" placeholder="Your Name">
+                        <label for="floatingName">Your Name</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Email address</label>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-primary btn-block btn-lg w-100">Subscribe</button>
+                    </div>
+                </div>
+            </form>
+            <!-- Subscribe Form Complete -->
+        </section>
     </main>
+
+    <footer class="container-fluid bg-light text-center p-3 mt-5">
+        <small style="color: teal;">© 2020 Copyright:<mark>Mozibur Rahman</mark></small>
+    </footer>
 
     <script src="js/bootstrap.bundle.min.js"></script>
 </body>
