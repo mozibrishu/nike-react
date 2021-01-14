@@ -57,3 +57,11 @@ h2{
 .casual-shoe-img{
     background-color: #f1f1f1;
 }
+
+.about-section-img{
+    width: 4.5em;
+}
+
+.about-card{
+    border-radius: 5%;
+}
