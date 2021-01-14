@@ -29,11 +29,12 @@
                 </button>
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-link mx-2 nike-nav-link" href="#">Home</a>
-                        <a class="nav-link mx-2 nike-nav-link" href="#casual-shoes">Casual Shoes</a>
-                        <a class="nav-link mx-2 nike-nav-link" href="#formal-shoes">Formal Shoes</a>
-                        <a class="nav-link mx-2 nike-nav-link" href="#subscribe-section">Subscribe</a>
-                        <a class="nav-link mx-2 nike-nav-link" href="#about-section">About Us</a>
+                        <a class="nav-link mx-1 nike-nav-link" href="#">Home</a>
+                        <a class="nav-link mx-1 nike-nav-link" href="#casual-shoes">Casual Shoes</a>
+                        <a class="nav-link mx-1 nike-nav-link" href="#formal-shoes">Formal Shoes</a>
+                        <a class="nav-link mx-1 nike-nav-link" href="#other-shoes-section">Other Shoes</a>
+                        <a class="nav-link mx-1 nike-nav-link" href="#about-section">About</a>
+                        <a class="nav-link mx-1 nike-nav-link" href="#subscribe-section">Subscribe</a>
                     </div>
                 </div>
             </div>
@@ -184,7 +185,7 @@
         <!-- About Section -->
         <section id="about-section" class="container my-5 d-flex justify-content-end">
             <div class="row align-items-center">
-                <div class="col-12 col-md-5">
+                <div class="col-12 col-md-5 order-2 order-md-1">
                     <div
                         class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 about-card">
                         <div><img class="about-section-img mx-4" src="Logo, Icon/fit.png" alt=""></div>
@@ -205,12 +206,12 @@
                         class="d-flex flex-column flex-md-row align-items-center text-center text-md-start shadow my-3 about-card">
                         <div><img class="about-section-img  mx-4" src="Logo, Icon/contacts.png" alt=""></div>
                         <div class="p-2">
-                            <h4 id="contact-section">Contact Our Seller</h4>
+                            <h4>Contact Our Seller</h4>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum.</p>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-7">
+                <div class="col-12 col-md-7 order-1 order-md-2 my-5">
                     <img class="w-100" src="Logo, Icon/app-diagram.png" alt="">
                 </div>
             </div>
@@ -218,7 +219,7 @@
         <!-- Four main Parts Complete -->
 
         <!-- bonus section: *Other Shoes -->
-        <section class="container my-4">
+        <section id="other-shoes-section" class="container my-4">
             <h2 class="text-center text-md-start my-5">OTHER SHOES</h2>
 
             <div class="other-shoes-box">
@@ -279,18 +280,18 @@
             </div>
         </section>
         <!-- other-shoes complete: Subscribe Section Start -->
-        <section class="container my-4">
+        <section id="subscribe-section" class="container my-4">
             <h2 class="text-center mt-5">Subscribe</h2>
             <h5 class="text-center mb-5">Get notification about new collection and offer</h5>
 
             <form action="">
                 <div class="w-50 m-auto">
                     <div class="form-floating my-3">
-                        <input type="text" class="form-control" id="floatingName" placeholder="Your Name">
+                        <input type="text" required class="form-control" id="floatingName" placeholder="Your Name">
                         <label for="floatingName">Your Name</label>
                     </div>
                     <div class="form-floating mb-3">
-                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <input type="email" required class="form-control" id="floatingInput" placeholder="name@example.com">
                         <label for="floatingInput">Email address</label>
                     </div>
                     <div>
